@@ -21,12 +21,12 @@ class Dog
 
   def self.print_all
     #puts @@all
-    puts self.name
+    #puts self.name
     #puts @@print_all
 
-    #@@all.each do |e|
-    #  puts @name
-    #end
+    @@all.each do |e|
+      puts e.@name
+    end
   end
 
   def self.clear_all
