@@ -1,14 +1,14 @@
 class Dog
 
   @@all = [] #objects of dogs
-  #@@print_all = []
+  @@print_all = []
 
   attr_accessor :name, :save
 
   def initialize(name)
     @name = name
     save
-    #@@print_all << name
+    @@print_all << name
   end
 
   def save
