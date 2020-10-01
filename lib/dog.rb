@@ -1,6 +1,6 @@
 class Dog
 
-  @@all = [] #objects of dogs
+  @@all = []
   #@@print_all = []
 
   attr_accessor :name, :save
@@ -21,7 +21,9 @@ class Dog
 
   def self.print_all
     puts @@all
+
     #puts @@print_all
+
     #@@all.each do |e|
     #  puts @name
     #end
