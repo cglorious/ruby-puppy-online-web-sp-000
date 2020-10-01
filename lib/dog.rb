@@ -25,7 +25,7 @@ class Dog
     #puts @@print_all
 
     @@all.each do |e|
-      puts e.@name
+      puts e.name
     end
   end
 
